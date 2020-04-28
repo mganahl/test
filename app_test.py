@@ -2,6 +2,6 @@ import app
 import numpy
 
 
-def fun_test():
+def test_fun():
   res = app.fun(1, 2)
   assert res == 9
