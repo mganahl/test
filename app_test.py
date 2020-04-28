@@ -3,5 +3,5 @@ import numpy
 
 
 def test_fun():
-  res = app.fun(1, 2)
-  assert res == 9
+  res = app.fun(2, 2)
+  assert res == 10
