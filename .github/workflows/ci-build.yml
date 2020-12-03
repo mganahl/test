@@ -26,7 +26,7 @@ jobs:
         pip install pylint pytest pytest-cov codecov
     - name: pylint
       run: |
-        pylint ./
+        pylint *.py
     - name: Test with pytest
       run: |
         pytest --cov=./
