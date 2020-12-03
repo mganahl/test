@@ -26,7 +26,7 @@ jobs:
         pip install pylint pytest pytest-cov codecov
     - name: Test with pytest
       run: |
-        pytest --cov=./
+        pytest --cov=./ test.py
     - name: Creating coverage report
       run: |
         codecov
