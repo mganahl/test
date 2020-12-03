@@ -1,3 +1,2 @@
-def test_run():
-  a = 2
-  assert a==2
+def fun(a,b):
+  return a + b
